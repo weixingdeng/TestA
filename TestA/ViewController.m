@@ -19,6 +19,11 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)logA {
+    
+    NSLog(@"A 说的");
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
